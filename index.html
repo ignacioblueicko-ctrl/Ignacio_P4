@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini web project integrating HTML, CSS, JavaScript, Git and deployment.">
+    <title>My Mini Project | Home</title>
+    <link rel="stylesheet" href="IndexStyle.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">WebDev Project</a>
+                <button class="menu-toggle" id="menuToggle">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="AboutMeIndex.html">About Me</a></li>
+                    <li><a href="ProjectsIndex.html">My Projects</a></li>
+                    <li><a href="ContactsIndex.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Welcome to My Website</h1>
+            <p id="greeting"></p>
+            <p class="lead">This project combines all the concepts learned from F1 to F7: HTML, CSS, JavaScript, Git, and deployment.</p>
+            <p>Current Date & Time: <span id="datetime"></span></p>
+        </section>
+
+        <section class="features">
+            <h2>What This Project Includes</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>HTML & CSS</h3>
+                    <p>Semantic structure, responsive layout, and consistent styling.</p>
+                </div>
+                <div class="card">
+                    <h3>JavaScript</h3>
+                    <p>Interactive menu, dynamic content, and form validation.</p>
+                </div>
+                <div class="card">
+                    <h3>Git & Deployment</h3>
+                    <p>Version control, branching, and live hosting via GitHub Pages.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ignaico Blueicko | Web Development Mini Project</p>
+        </div>
+    </footer>
+
+    <script src="IndexScript.js"></script>
+</body>
+</html>
