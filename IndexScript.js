@@ -45,18 +45,15 @@ if (contactForm) {
             document.getElementById('nameError').textContent = 'Please enter your full name.';
             valid = false;
         }
-
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailPattern.test(email)) {
             document.getElementById('emailError').textContent = 'Please enter a valid email address.';
             valid = false;
         }
-
         if (message === '') {
             document.getElementById('messageError').textContent = 'Please enter your message.';
             valid = false;
         }
-
         if (valid) {
             document.getElementById('formSuccess').textContent = 'Message sent successfully!';
             contactForm.reset();
