@@ -17,7 +17,6 @@ function updateDateTime() {
     else greeting = 'Good Evening!';
 
     const dateTimeStr = now.toLocaleString();
-
     const greetingEl = document.getElementById('greeting');
     const datetimeEl = document.getElementById('datetime');
 
